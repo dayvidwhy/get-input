@@ -68,6 +68,7 @@ int main(int argc, char** argv) {
     /* post the result */
     print("Line was:");
     print(line);
+    free(line);
 
     post_status(NORMAL);
 }
